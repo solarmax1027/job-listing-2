@@ -16,9 +16,10 @@ class Job < ApplicationRecord
   end
 
     scope :published, -> { where(is_hidden: false)}
-    end
+
 
     scope :recent, -> { order('created_at DESC')}
-  end
 
+    has_many :resumes
+    
 end
