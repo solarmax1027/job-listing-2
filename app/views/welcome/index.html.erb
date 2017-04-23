@@ -1,43 +1,67 @@
-    <div class="jumbotron">
-      <h1 class="title">18K Offer</h1>
-      <p class="slogan">18K Offer 是一个提供18K薪水工作机会的求职网站。
-      <br>
-      我们希望藉由这个网站，能让大家找到且应征上高薪且优质的工作。
-      <br>
-       凭借自己的努力和天份也会变 Winner
-      </p>
-      <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">马上应征</a></p>
-    </div>
 
-
-
-    <section id="company">
-      <div class = "container-fluid">
-        <div class="row">
-          <div class="col-sm-4 ">
-            <div class="thumbnail">
-              <img src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-43-31.png" alt="search" class = "img-thumbnail">
-              <div class="caption">
-                <h3>北京朝阳建外SOHO</h3>
-              </div>
-            </div>
+      <div class="col-md-12">
+        <div class="row box">
+          <div class="box-inner col-md-6 col-md-offset-3">
+            <h1 class="title"> 栈酷网 </h1>
+            <p class="slogan">创业公司寻找newbee全栈工程师的平台。
+              <br>
+              来自全球最nb的线上全栈工程师培训平台全栈营毕业的全栈工程师们，正在等待与您共同实现您创业点子。
+              <br>
+              让靠谱的全栈工程师不再难寻。
+            </p>
+            <p class="lead">
+              <%= link_to '跟我走吧', jobs_path, class: 'btn btn-danger' %>
+            </p>
           </div>
-          <div class="col-sm-4 ">
-            <div class="thumbnail">
-              <img src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-43-48.png" alt="bid" class = "img-thumbnail">
-              <div class="caption">
-                <h3>info@18koffer.com</h3>
+        </div>
+      </div>
+
+
+
+        <div class="content-section-a">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">了解您中意的全栈工程师</h2>
+                <p class="lead">不单单从简历了解，去他的logdown，更深入了解未来将与您的企业一起成长的伙伴</p>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-4 ">
-            <div class="thumbnail">
-              <img src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-44-00.png" alt="heart" class = "img-thumbnail">
-              <div class="caption">
-                <h3>010-12344321</h3>
+              <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <%= image_tag 'pic-1.jpg', class: 'img-responsive' %>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+
+        <div class="content-section-b">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">一定要把履历写好在投</h2>
+                <p class="lead">履历如果不会写就一定要多上网寻求帮助，例如  <a target="_blank" href="http://blog.niclin.tw">Nic 的 Blog</a>! 啦啦啦啦啦啦啦</p>
+              </div>
+              <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <%= image_tag 'pic-2.jpg', class: 'img-responsive' %>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-section-a">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">平均每60天就有500名全栈工程师在这里被锻造完成<br>他们来自世界各地</h2>
+                <p class="lead">点此查看离您最近的优秀毕业生<a target="_blank" href="https://forum.qzy.camp/">各地meetup汇总</a></p>
+              </div>
+              <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <%= image_tag 'pic-3.jpg', class: 'img-responsive' %>
+              </div>
+            </div>
+          </div>
+        </div>
